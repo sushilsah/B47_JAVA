@@ -2,8 +2,8 @@
  * 
  */
 /**
- * @author sushilsah
+ * @author puheg
  *
  */
-module FirstProgram {
+module B47_Core_Java {
 }
