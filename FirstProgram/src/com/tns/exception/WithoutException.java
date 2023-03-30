@@ -8,7 +8,7 @@ public class WithoutException {
 		 
 		 try 
 		 {
-			 a=22/d;//exception occured
+			 a=22/d;//exception occured in
 			 
 		 
 		System.out.println("This will not print");
