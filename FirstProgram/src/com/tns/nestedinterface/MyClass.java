@@ -11,7 +11,7 @@ public class MyClass implements Outer{
 //	@Override
 //	public void m2() {
 //		// TODO Auto-generated method stub
-//		
+//		//jj
 //	}
 //	
 
