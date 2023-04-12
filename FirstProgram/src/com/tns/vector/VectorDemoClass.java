@@ -7,22 +7,26 @@ public class VectorDemoClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//creating a new vector 
-		Vector<Integer> vt = new Vector<Integer>();
+		Vector<String> vt = new Vector<String>();
 		//adding element to vector
-		vt.add(5);
-		vt.add(9);
-		vt.add(10);
-		vt.add(11);
+		vt.add("sushil");
+		vt.add("sah");
+		vt.add("mosh");
+		vt.add("john");
+		vt.add("sarah");
+		vt.add(null);
 		
 		System.out.println(vt);//print element of vector
 		
 		//insert an element at index
-		vt.insertElementAt(0, 3);
-		
+		vt.insertElementAt( "mosh",0);
+		vt.insertElementAt("penkak", 3);
+	
 		//remove the element at index 1
 		vt.removeElementAt(1);
+		vt.removeElementAt(4);
 		
-		System.out.println(vt.elementAt(2));//printing the capacity of vector
+		System.out.println(vt.elementAt(1));//printing the capacity of vector
 		
 		System.out.println(vt.capacity());//capacity of vector
 		
